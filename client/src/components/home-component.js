@@ -9,11 +9,9 @@ const HomeComponent = () => {
             <h1 className="display-5 fw-bold">Learning System</h1>
             <p className="col-md-8 fs-4">
               <br />
-              This system uses React.js as the frontend framework, Node.js and
-              MongoDB as a backend server.
-              <br />
-              This type of project is called a MERN project, and it is one of
-              the most popular ways to create modern websites.
+              This system demonstrates the power of the MERN stack—React.js on
+              the frontend, Node.js and Express.js on the backend, and MongoDB
+              as the database.
             </p>
             <button className="btn btn-primary btn-lg" type="button">
               See how it works
@@ -24,25 +22,25 @@ const HomeComponent = () => {
         <div className="row align-items-md-stretch">
           <div className="col-md-6">
             <div className="h-100 p-5 text-white bg-dark rounded-3">
-              <h2>As a student</h2>
+              <h2>Student</h2>
               <p>
                 <br />
-                Students can enroll in the courses they like.
+                Enroll Courses You Like Now !!!
               </p>
               <button className="btn btn-outline-light" type="button">
-                Log in as a member or register an account
+                Login or Register
               </button>
             </div>
           </div>
           <div className="col-md-6">
             <div className="h-100 p-5 text-white bg-dark rounded-3">
-              <h2>As a instructor</h2>
+              <h2>Instructor</h2>
               <p>
                 <br />
-                Start creating courses by signing up to become an instructor.
+                Start Creating Courses Today !!!
               </p>
               <button className="btn btn-outline-light" type="button">
-                Start courses today
+                Start
               </button>
             </div>
           </div>
