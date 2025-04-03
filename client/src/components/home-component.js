@@ -23,9 +23,14 @@ const HomeComponent = () => {
           <div className="col-md-6">
             <div className="h-100 p-5 text-white bg-dark rounded-3">
               <h2>Student</h2>
-              <p>
+              <p
+                className="lead fw-bold"
+                style={{
+                  textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                }}
+              >
                 <br />
-                Enroll Courses You Like Now !!!
+                Enroll in Courses You Love Now !
               </p>
               <button className="btn btn-outline-light" type="button">
                 Login or Register
@@ -35,12 +40,17 @@ const HomeComponent = () => {
           <div className="col-md-6">
             <div className="h-100 p-5 text-white bg-dark rounded-3">
               <h2>Instructor</h2>
-              <p>
+              <p
+                className="lead fw-bold"
+                style={{
+                  textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+                }}
+              >
                 <br />
-                Start Creating Courses Today !!!
+                Start Creating Courses Today !
               </p>
               <button className="btn btn-outline-light" type="button">
-                Start
+                Login and Start
               </button>
             </div>
           </div>
