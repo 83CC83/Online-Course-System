@@ -31,7 +31,12 @@ const RegisterComponent = () => {
       })
       .catch((e) => {
         // console.log(e);
-        setMessage(e.response.data);
+        console.error("Registration error:", e);
+        const errMsg =
+          e.response && e.response.data
+            ? e.response.data
+            : e.message || "Unknown error occurred";
+        setMessage(errMsg);
       });
   };
 
